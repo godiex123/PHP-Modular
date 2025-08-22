@@ -47,6 +47,7 @@ Use the Composer script to automatically create the basic structure for a new mo
 
 ```bash
 composer make:module <ModuleName>
+```
 
 ---
 

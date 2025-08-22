@@ -1,0 +1,128 @@
+#!/usr/bin/env php
+<?php
+
+if ($argc < 2) {
+    echo "Usage: php make-module {ModuleName}\n";
+    exit(1);
+}
+
+$moduleName = ucfirst($argv[1]);
+$basePath   = __DIR__ . '/../app/Modules/' . $moduleName;
+
+$dirs = [
+    'Controllers',
+    'Services',
+    'DTOs',
+    'Repositories',
+    'Interfaces',
+    'Models',
+    'Middlewares',
+    'Views',
+];
+
+if (!is_dir($basePath)) {
+    if (!mkdir($basePath, 0777, true) && !is_dir($basePath)) {
+        throw new \RuntimeException(sprintf('Directory "%s" was not created', $basePath));
+    }
+}
+
+foreach ($dirs as $dir) {
+    if (!mkdir("$basePath/$dir", 0777, true) && !is_dir("$basePath/$dir")) {
+        throw new \RuntimeException(sprintf('Directory "%s" was not created', "$basePath/$dir"));
+    }
+}
+
+// Model
+$modelTemplate = <<<PHP
+<?php
+namespace App\\Modules\\{$moduleName}\\Models;
+
+use Illuminate\\Database\\Eloquent\\Model;
+
+class {$moduleName} extends Model
+{
+    protected \$table = '{$moduleName}';
+    protected \$fillable = [];
+}
+PHP;
+file_put_contents("$basePath/Models/{$moduleName}.php", $modelTemplate);
+
+// Repository
+$repositoryTemplate = <<<PHP
+<?php
+declare(strict_types=1);
+namespace App\\Modules\\{$moduleName}\\Repositories;
+
+use App\\Modules\\{$moduleName}\\Models\\{$moduleName};
+
+class {$moduleName}Repository
+{
+    // Start Here!! 
+}
+PHP;
+file_put_contents("$basePath/Repositories/{$moduleName}Repository.php", $repositoryTemplate);
+
+// Service
+$serviceTemplate = <<<PHP
+<?php
+declare(strict_types=1);
+namespace App\\Modules\\{$moduleName}\\Services;
+
+use App\\Modules\\{$moduleName}\\Repositories\\{$moduleName}Repository;
+
+class {$moduleName}Service 
+{
+    public function __construct(
+        protected {$moduleName}Repository \$repository
+    ){}
+    
+    // Start Here!
+}
+PHP;
+file_put_contents("$basePath/Services/{$moduleName}Service.php", $serviceTemplate);
+
+// Controller
+$controllerTemplate = <<<PHP
+<?php
+declare(strict_types=1);
+namespace App\\Modules\\$moduleName\\Controllers;
+
+use App\\Modules\\$moduleName\\Services\\{$moduleName}Service;
+
+class {$moduleName}Controller {
+    public function __construct(
+        protected {$moduleName}Service \$service
+    ){}
+    
+    public function index() {
+        echo "Hello from $moduleName module!";
+    }
+}
+PHP;
+file_put_contents("$basePath/Controllers/{$moduleName}Controller.php", $controllerTemplate);
+
+// Middlewares
+$middlewareTemplate = <<<PHP
+<?php
+
+return [
+    'global' => [
+        \App\Modules\Auth\Middlewares\AuthMiddleware::class, // Only logged users
+        //[App\Modules\Roles\Middlewares\RoleMiddleware::class, 'ROOT'], // Just a specific role
+    ],
+    'api' => []
+];
+PHP;
+file_put_contents("$basePath/middlewares.php", $middlewareTemplate);
+
+// Route
+$route = strtolower($moduleName);
+$routeTemplate = <<<PHP
+<?php
+use App\\Modules\\$moduleName\\Controllers\\{$moduleName}Controller;
+
+\$this->get('/{$route}', {$moduleName}Controller::class, 'index');
+PHP;
+file_put_contents("$basePath/routes.php", $routeTemplate);
+
+echo "✅ Module $moduleName created successfully.\n";

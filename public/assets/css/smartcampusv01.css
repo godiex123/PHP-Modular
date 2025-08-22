@@ -1,0 +1,1201 @@
+html,
+body {
+    height:100%;
+	background-color:#D6CFBC!important;
+	font-family: 'Roboto Condensed', sans-serif!important;	
+	background-image:url(../images/bgD6CFBC.png);
+	color:#333333!important;
+}
+.Width10 {
+	width:10%!important;
+	margin:0 auto!important;
+}
+.Width20 {
+	width:20%!important;
+	margin:0 auto!important;
+}
+.Width30 {
+	width:20%!important;
+	margin:0 auto!important;
+}
+.Width40 {
+	width:40%!important;
+	margin:0 auto!important;
+}
+.Width50 {
+	width:50%!important;
+	margin:0 auto!important;
+}
+.Width60 {
+	width:60%!important;
+	margin:0 auto!important;
+}
+.Width70 {
+	width:70%!important;
+	margin:0 auto!important;
+}
+.Width80 {
+	width:80%!important;
+	margin:0 auto!important;
+}
+.Width90 {
+	width:90%!important;
+	margin:0 auto!important;
+}
+.Width100 {
+	width:100%!important;
+	margin:0 auto!important;
+}
+.TituloH1 {
+	font-size:2em!important;
+	text-transform:uppercase;
+	color:#096784;
+	margin:.5em;
+}
+.TituloH2 {
+	font-size:1.6em!important;
+	color:#F19300;
+	margin:.5em;
+}
+.TituloH3 {
+	font-size:1.4em!important;
+	color:#096784;
+	margin:.5em 0 .3em .5em;
+}
+.TituloH4 {
+	font-size:1.2em!important;
+	margin:.5em;
+	color:#096784;
+}
+.ColorFondoAzul {
+	background-color:#096784;
+	overflow:auto;
+}
+.ColorFondoGris {
+	background-color:#CCCCCC;
+}
+.ColorFondoBeige {
+	background-color:#C4B691;
+}
+.TextoDerecha {
+	text-align:right!important;
+}
+.TextoCentro {
+	text-align:center!important;
+	vertical-align: middle!important;
+}
+.TextoNegrita {
+	font-weight:bold!important;
+}
+.TextoColorNegro, .TextoColorNegro a {
+	color:#333333!important;
+}
+.BtnInactivo {
+	opacity: .7;
+	font-size:.9em;
+	color:#CCC;
+}
+.BtnInactivo:hover {
+	opacity: .3;
+	cursor:wait;
+}
+.BtnActivoAzul {
+	background-color:#0099FF;
+}
+.BtnActivoVerde {
+	background-color:#009966;
+}
+.BtnActivoNaranja {
+	background-color:#FF9900;
+}
+.BtnActivoRojo {
+	background-color:#FF3300;
+}
+.BtnActivoSecundario {
+	background-color:#B23CFD;
+}
+.BtnActivoSecundario,
+.BtnActivoAzul, 
+.BtnActivoVerde, 
+.BtnActivoNaranja,
+.BtnActivoRojo {
+	font-size:.9em;
+	color:#FFFFFF;
+}
+.BtnActivoSecundario:hover,
+.BtnActivoAzul:hover, 
+.BtnActivoVerde:hover, 
+.BtnActivoNaranja:hover,
+.BtnActivoRojo:hover {
+	color:#FFFFFF;
+	opacity: .7;
+}
+.SinImagen {
+	background-image:none!important;
+}
+.selectHeigthBootstrap4 {
+	height:34px!important;
+}
+.divContenedorLogin {
+	width:100%;
+	height:100%;
+	overflow:auto;
+	background-image:url(../images/bgImgEjemplo.jpg);
+	background-position:top center;
+	background-size:100% auto;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.divContenedorLogin .TextoLogotipo {
+	text-transform:capitalize;
+	font-weight:bold;
+	font-size:2.5em!important;
+}
+.divContenedorLogin .divLoginCol01, 
+.divContenedorLogin .divLoginCol02 {
+	width:22%;
+	min-width:15%;
+	height:33%;
+	background:#FFFFFF;
+	padding:1em;
+	float:left;
+}
+.divContenedorLogin .divLoginCol01 {		
+	text-align:center;
+	border-radius:.8em 0 0 .8em;
+}
+.divContenedorLogin .divLoginCol01 .icoCandado {
+	width:auto;
+	height:40%;
+	margin:.5em 0;
+}
+.divContenedorLogin .divLoginCol01 .imgLogotipo {
+	width:100%;
+	height:auto;
+	margin:.5em 0 0 0;
+}
+.divContenedorLogin .divLoginCol01 h1,
+.divContenedorLogin .divLoginCol01 h2,
+.divContenedorLogin .divLoginCol01 h3 {
+	margin:.1em 0;
+}
+.divContenedorLogin .divLoginCol02 {
+	border-radius:0 .8em .8em 0;
+}
+.divContenedorLogin .divLoginCol02 span {
+	width:100%;
+	height:auto;
+}
+.divContenedorLogin .divLoginCol02 span > label {
+	width:20%;
+	height:auto;
+	float:left;
+}
+.divContenedorLogin .divLoginCol02 span > input[type="text"], 
+.divContenedorLogin .divLoginCol02 input[type="password"] {
+	width:100%;
+	height:auto;
+}
+.divContenedorLogin .divLoginCol02 span > input[type="submit"] {
+	width:100%;
+	height:auto;
+	float:left;
+	margin:.25em 0 1em 0;
+	display:block;
+}
+.divContenedorLogin .divLoginCol02 span > label, 
+.divContenedorLogin .divLoginCol02 span > input[type="text"], 
+.divContenedorLogin .divLoginCol02 span > input[type="password"], 
+.divContenedorLogin .divLoginCol02 span > input[type="submit"] {
+	margin:.25em 0;
+}
+.divContenedorMenu {
+	width:100%;
+	height:auto;
+	overflow:auto;
+	padding:.1em 0;
+	color:#666666;
+	background-color:#CCCCCC;
+}
+.divMenuTerciario {
+	width:99%;
+	height:auto;
+	margin:0 auto;
+}
+.divMenuTerciario > span {
+	float:right;
+}
+.divMenuTerciario a {
+	color:#666666;
+}
+.divContenedora {
+	width:98%!important;
+	overflow:auto;
+	margin:4.0em auto 1em auto;
+	padding:0 0 1em 0!important;
+	border-radius:.8em!important;
+	background-color:#FFFFFF;
+}
+.divContenedora .spanRuta {
+	margin:.8em 0 .2em .8em;
+	display:block;	
+}
+.divContenedora .spanRuta > a {
+	color:#666666;
+}
+.divContenedora .btnNuevo a {
+	width:auto;
+	float:right;
+	margin-bottom:1%;
+	margin-right:1%;
+	font-size:.9em;
+}
+.divContenedora .divInput {
+	width:100%;
+	height:auto;
+	display:table!important;
+}
+.divContenedora .divInput > .spanBotones {
+	margin:.5% 1%;
+	float:right;
+	text-align:right;
+}
+.divContenedora .divInput > .spanBotones > input[type="image"] {
+	width:30px;
+	height:30px;
+	margin:0 1% 0 0;	
+}
+.divContenedora .divInput > .spanBotones > input[type="image"]:hover {
+	opacity:.8;
+}
+.divContenedora  .divInput > span {
+	width:12.5%!important;
+	display:table-cell!important;
+}
+.divContenedora  .divInput > span > label {
+	margin:0 0 0 .5em;
+	color:#FFFFFF;
+	font-weight:normal;
+}
+.divContenedora  .divInput > span > select {
+	width:90%!important;	
+	margin:0 5% 5% 5%!important;
+	padding:0!important;
+}
+.divContenedora .divPiePagina {
+	background-color:#FFFFFF;
+	margin:0 auto;
+	width:80%;
+}
+.divContenedora .divInput1Columna {
+	width:100%;
+	height:auto;
+}
+.divContenedora .divInput1Columna span {
+	float:left;
+	padding:.5em;
+}
+.divContenedora .divInput1Columna label {
+	color:#FFFFFF;
+	font-weight:normal;
+	padding:.5em 0 0 0;
+}
+.tblListarDatos {
+	width:99%;
+	font-size:85%;
+	margin:0 .5%;
+}
+.tblListarDatos td {
+	cursor:pointer;
+}
+.tblListarDatos th, td {
+	padding:.5% .3%;
+	vertical-align:top;
+	border-bottom:solid thin #CCCCCC;
+}
+.tblListarDatos .Col1 {
+	width: 1%!important;
+}
+.tblListarDatos .Col2 {
+	width: 2%!important;
+}
+.tblListarDatos .Col3 {
+	width:2.4%!important;	
+} 
+.tblListarDatos .Col5 {
+	width:4.4%!important;	
+} 
+.tblListarDatos .Col10 {
+	width:9.4%!important;
+}
+.tblListarDatos .Col15 {
+	width:14.4%!important;
+}
+.tblListarDatos .Col20 {
+	width:19.4%!important;
+}
+.tblListarDatos .Col25 {
+	width:24.4%!important;
+}
+.tblListarDatos .Col30 {
+	width:49.4%!important;
+}
+.tblListarDatos .Col35 {
+	width:34.4%!important;
+}
+.tblListarDatos .Col40 {
+	width:39.4%!important;
+}
+.tblListarDatos .Col45 {
+	width:44.4%!important;
+}
+.tblListarDatos .Col50 {
+	width:49.4%!important;
+}
+.tblListarDatos .Col55 {
+	width:54.4%!important;
+}
+.tblListarDatos .Col60 {
+	width:59.4%!important;
+}
+.tblListarDatos .Col65 {
+	width:64.4%!important;
+}
+.tblListarDatos .Col70 {
+	width:69.4%!important;
+}
+.tblListarDatos td > .spanDatos {
+	width:100%;
+	height:auto;
+	float:left;
+}
+.tblListarDatos td > .spanDatos > label {
+	width:auto;
+	float:right;
+	font-weight:inherit;
+	line-height:100%;
+}
+.divFondoPopup {
+	width:100%!important;
+	height:100%!important;
+	left:0;
+	top:0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index:1100;
+	position:fixed;
+	background: rgba(204, 204, 204, 0.5);	
+	overflow:hidden;
+}
+.ContenedorPopupNeutro {
+	height:auto;
+	overflow:auto;
+	padding:1.5em!important;
+	background-color:#FFFFFF;
+	border-radius:.8em;
+	margin:0 auto;
+	z-index:1101;
+}
+/*
+.ContenedorPopupNeutro > span {
+	float:left;
+	border:1px;
+	margin:1%;
+}
+.ContenedorPopupNeutro > .spanInput {
+	width:18%;
+}
+.ContenedorPopupNeutro > .spanInput25 {
+	width:23%!important;
+}
+.ContenedorPopupNeutro > .spanInput100 {
+	width:98%!important;
+}
+.ContenedorPopupNeutro > .spanBotones {
+	width:98%;
+}
+*/
+#nuevo-decreto .flex {
+	display: flex;
+}
+#nuevo-decreto .spanBotones {
+	display:inline-block;
+	text-align: center;
+}
+#nuevo-decreto .spanInput{
+	width: 23% !important;
+}
+#modificar-decreto .flex {
+	display: flex;
+}
+#modificar-decreto .np{
+	width: 23% !important;
+}
+
+/* inicio */
+.spanInput {
+	width:18%;
+}
+.spanInput25 {
+	width:23%!important;
+}
+.spanInput100 {
+	width:98%!important;
+}
+.spanInput, .spanInput25, .spanInput100 {
+	float:left;
+	border:1px;
+	margin:1%;
+}
+.spanBotones {
+	display: inline-block;
+	width:98%;
+	text-align: center;
+}
+
+#pre-requisito-asignatura .spanInput, #modificar-asignatura .spanInput,#nueva-asignatura .spanInput{
+	width: 30%;
+}
+
+#pre-requisito-asignatura .spanBotones, #modificar-asignatura .spanBotones,#nueva-asignatura .spanBotones{
+	text-align: center !important;
+	float: left;
+}
+.ContenedorPopupNeutro .CuadrosModal {
+	width: 100%;
+}
+.ContenedorPopupNeutro .CuadrosModal .Cuadro1 {
+	width: 50%;
+	float: left;
+}
+.ContenedorPopupNeutro .CuadrosModal {
+	text-align:center;
+}
+.ContenedorPopupNeutro .CuadrosModal .Cuadro2 {
+	width: 50%;
+	float: right;
+}
+.ContenedorPopupNeutro .CuadrosModal .Cuadro2 .selectRegistrarPrerequisitos{
+	padding:5px;
+	font-size:15px;
+	margin:20px;
+}
+/* fin */
+.ContenedorPopup {
+	width:40%;
+	height:auto;
+	overflow:auto;
+	padding:1.5em!important;
+	background-color:#FFFFFF;
+	background-image:url(../img/iconos/icoDescarga.svg);
+	background-position:95% 5%;
+	background-repeat:no-repeat;
+	background-size:90px 90px;
+	border-radius:.8em;	
+	opacity:.9;
+	margin:0 auto;
+}
+.ContenedorPopup h1, .ContenedorPopup h3 {
+	margin:.5em 0!important;
+}
+.ContenedorPopup ul > li {
+	list-style-image: url(../img/iconos/icoBulletAzul.svg);
+}
+.ContenedorPopup ul > li > a {
+	color:#6699CC;
+}
+.divContenedorCalendario {
+	width:94%;
+	overflow:auto;
+	margin:2% auto;
+	padding:3%;
+	border-radius:.8em;
+	background-color:#FFFFFF;
+}
+.divContenedorCalendario .Cabecera {
+	width:98%;
+	height:auto;
+	overflow:auto;
+	padding:0 0 2% 0;
+}
+.divContenedorCalendario .Cabecera > h1, 
+.divContenedorCalendario .Cabecera > h2, 
+.divContenedorCalendario .Cabecera > h3,
+.divContenedorCalendario .Cabecera > span {
+	margin:.5em 0 .3em 0;
+}
+.divContenedorCalendario .Cabecera > h2 {
+	text-transform:uppercase;
+}
+.divContenedorCalendario .Cabecera > .spanRuta {
+	margin:0 0 .5em 0;
+	display:block;	
+}
+.divContenedorCalendario .Cabecera > .spanRuta > a {
+	color:#666666;
+}
+.divContenedorCalendario .divMes {
+	width:15.5%;
+	height:30%;
+	text-align:center;
+	float:left;
+	margin:0 .5% .5% 0;
+}
+.divContenedorCalendario .divMes > .spanMes {
+	width:98%;
+	height:auto;
+	color:#FFFFFF;
+	font-weight:bold;
+	display:block;
+}
+.divContenedorCalendario .divMes > .spanDias {
+	width:14%;
+	height:auto;
+	display:block;
+	float:left;	
+}
+.divContenedorCalendario .divMes > .TextoFestivo {
+	color:#FF0000;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso01 {
+	color:#333;
+	background-color:#ffd700;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso02 {
+	color:#333;
+	background-color:#ffff00;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso03 {
+	color:#FFF;
+	background-color:#006600;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso04 {
+	color:#333;
+	background-color:#f0e68c;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso05 {
+	color:#FFF;
+	background-color:#bdb76b;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso06 {
+	color:#FFF;
+	background-color:#e6e6fa;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso07 {
+	color:#FFF;
+	background-color:#dda0dd;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso08 {
+	color:#FFF;
+	background-color:#ee82ee;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso09 {
+	color:#FFF;
+	background-color:#ff00ff;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso10 {
+	color:#FFF;
+	background-color:#4b0082;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso11 {
+	color:#FFF;
+	background-color:#adff2f;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso12 {
+	color:#FFF;
+	background-color:#32cd32;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso13 {
+	color:#FFF;
+	background-color:#90ee90;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso14 {
+	color:#FFF;
+	background-color:#00FF00;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso15 {
+	color:#FFF;
+	background-color:#66cdaa;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso16 {
+	color:#FFF;
+	background-color:#008080;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso17 {
+	color:#FFF;
+	background-color:#00ffff;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso18 {
+	color:#FFF;
+	background-color:#7fffd4;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso19 {
+	color:#FFF;
+	background-color:#4682b4;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso20 {
+	color:#FFF;
+	background-color:#add8e6;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso21 {
+	color:#FFF;
+	background-color:#00bfff;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso22 {
+	color:#FFF;
+	background-color:#0000ff;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso23 {
+	color:#333;
+	background-color:#ffe4c4;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso24 {
+	color:#FFF;
+	background-color:#d2b48c;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso25 {
+	color:#FFF;
+	background-color:#cd853f;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso26 {
+	color:#FFF;
+	background-color:#d2691e;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso27 {
+	color:#FFF;
+	background-color:#a52a2a;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso28 {
+	color:#333;
+	background-color:#f0ffff;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso29 {
+	color:#333;
+	background-color:#faebd7;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso30 {
+	color:#FFF;
+	background-color:#c0c0c0;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso31 {
+	color:#FFF;
+	background-color:#708090;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso32 {
+	color:#FFF;
+	background-color:#FF0000;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso33 {
+	color:#FFF;
+	background-color:#992A12;
+}
+.divContenedorCalendario .divMes > .ColorTextoCurso34 {
+	color:#FFF;
+	background-color:#006600;
+}
+/*
+	Colocar ac� los otros colores
+
+*/
+.divContenedorCalendario .PieCalendario {
+	width:100%;
+	float:left;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion {
+	width:16%;
+	height:auto;
+	display:table;
+	float:left;
+	margin:1% 1% 1% 0;
+	font-size:.8em;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso01 {
+	background-color:#ffd700;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso02 {
+	background-color:#ffff00;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso03 {
+	/*background-color:#fffacd;*/
+	background-color:#006600;
+	color: #FFF !important;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso04 {
+	background-color:#f0e68c;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso05 {
+	background-color:#bdb76b;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso06 {
+	background-color:#e6e6fa;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso07 {
+	background-color:#dda0dd;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso08 {
+	background-color:#ee82ee;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso09 {
+	background-color:#ff00ff;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso10 {
+	background-color:#4b0082;
+	color: #FFF!important;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso11 {
+	background-color:#adff2f;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso12 {
+	background-color:#32cd32;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso13 {
+	background-color:#90ee90;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso14 {
+	background-color:#00FF00;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso15 {
+	background-color:#66cdaa;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso16 {
+	background-color:#008080;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso17 {
+	background-color:#00ffff;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso18 {
+	background-color:#7fffd4;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso19 {
+	background-color:#4682b4;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso20 {
+	background-color:#add8e6;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso21 {
+	background-color:#00bfff;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso22 {
+	background-color:#0000ff;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso23 {
+	background-color:#ffe4c4;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso24 {
+	background-color:#d2b48c;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso25 {
+	background-color:#cd853f;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso26 {
+	background-color:#d2691e;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso27 {
+	background-color:#a52a2a;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso28 {
+	background-color:#f0ffff;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso29 {
+	background-color:#faebd7;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso30 {
+	background-color:#c0c0c0;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso31 {
+	background-color:#708090;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso32 {
+	background-color:#FF0000;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso33 {
+	background-color:#992A12;
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .ColorFondoCurso34 {
+	background-color:#006600;
+}
+/*
+	Colocar ac� los otros colores
+
+*/
+.divContenedorCalendario .PieCalendario > .Descripcion > .DescripcionCurso {
+	width:100%;
+	height:auto;
+	text-transform:uppercase;
+	/*color:#FFFFFF;*/
+	color: #333333;
+	padding:2% 0 2% 2%;
+	display:table-row;
+	float:left;	
+}
+.divContenedorCalendario .PieCalendario > .Descripcion > .DescripcionTexto {
+	width:100%;
+	height:auto;
+	display:table-column;
+	float:left;
+	padding:0 0 0 2%;
+	background-color:#EEE;
+}
+.divContenedorCalendario .PieCalendario > .Nota {
+	width:100%;
+	height:auto;
+	padding:1% 0;
+	color:#666666;
+	display:block;
+	float:left;
+}
+.divCalendariosAsignaturas {
+	width:98%;
+	height:auto;
+	padding:.5%;
+	margin:1% 1% 2% 1%;
+	border:solid thin #CCC;
+	border-radius:.5em;
+	font-size:.9em;
+	color:#666666;
+}
+.divCalendariosAsignaturas > span {
+	float:left;
+	margin:0 2% 0 0;
+}
+.divCalendariosAsignaturas .divScrollHorizontal {
+	width:100%;
+	height:auto;
+	padding:.5% 0;
+	margin:0 0 1% 0;
+	overflow-y: hidden; 
+	overflow-x: auto;
+	white-space:nowrap;
+}
+.divCalendariosAsignaturas .divScrollHorizontal > span {
+	padding:.5%;
+	margin:0 1% 0 0;
+	border:dotted thin #999;
+	display: inline-block;
+	border-radius:.5em;
+}
+.divCalendariosAsignaturas .divScrollHorizontal > span > p > img {
+	width:16px;
+	height:16px;
+}
+.divPiePagina {
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	padding:1%;
+	color:#FFF;
+	text-align:center;
+	background-color:#666666;
+	position: fixed;
+	bottom: 0;
+	opacity:.9;
+}
+.CustomWidth {
+	width: 400px! important;
+}
+.scroll tbody,
+.scroll thead { display: block; }
+.scroll thead tr{
+	background-color:lightgray;
+}
+.scroll tbody {
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.scroll2 tbody,
+.scroll2 thead { display: block; }
+.scroll2 thead tr{
+	background-color:lightgray;
+}
+.scroll2 tbody {
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.listadoProfesores {
+	padding: 1.5rem !important;
+}
+
+
+
+
+/*************Proyecto Fondos***************/
+.roman-list {
+	list-style-type: upper-roman;
+}
+/*Formulacio postulacion*/
+#formularioPostulacion {
+	background-color: #ffffff;
+	margin: 100px auto;
+	/*font-family: Raleway;*/
+	padding: 40px;
+	width: 80%;
+	min-width: 300px;
+	font-size: 13px;
+}
+
+#formularioPostulacion .divTituloFormulario {
+	/*display: flex;
+	justify-content: space-between;*/
+}
+#formularioPostulacion .divTituloFormulario h1 {
+	text-align: center;
+}
+#formularioPostulacion .divTituloFormulario .VolverAtrasFormulario {
+	margin-top: 25px;
+	background:#d9534f;
+	color: #fff;
+}
+#formularioPostulacion .divTituloFormulario .VolverAtrasFormulario a{
+	color: #fff;
+}
+
+
+#formularioPostulacion input,#formularioPostulacion select,#formularioPostulacion textarea {
+	padding: 10px;
+	width: 100%;
+	font-size: 13px;
+	/*font-family: Raleway;*/
+	border: 1px solid #aaaaaa;
+}
+
+#formularioPostulacion .P_checkbox input[type='checkbox'] {
+	width:auto;
+}
+
+#formularioPostulacion textarea { resize: vertical; }
+
+/* Mark input boxes that gets an error on validation: */
+#formularioPostulacion input.invalid {
+	background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+#formularioPostulacion .tab {
+display: none;
+}
+
+.VolverAtrasFormulario {
+	background-color: #4CAF50;
+	color: #ffffff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 14px;
+	/*font-family: Raleway;*/
+	cursor: pointer;
+}
+
+#formularioPostulacion button:hover {
+	opacity: 0.8;
+}
+
+#formularioPostulacion #prevBtn {
+	background-color: #bbbbbb;
+}
+
+/* Make circles that indicate the steps of the form: */
+#formularioPostulacion .step {
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbbbbb;
+	border: none;  
+	border-radius: 50%;
+	display: inline-block;
+	opacity: 0.5;
+}
+
+#formularioPostulacion .step.active {
+	opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+#formularioPostulacion .step.finish {
+	background-color: #4CAF50;
+}
+#formularioPostulacion table th {
+	font-size: 14px !important;
+	padding: 1rem;
+	background-color: #E3F2FD;
+}
+#formularioPostulacion table td {
+	border-bottom: none;
+}
+
+
+/*Ver postulacion*/
+#tablaPostulacion{
+	margin:30px 0px;
+}
+#tablaPostulacion td, #tablaPostulacion th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+#tablaPostulacion tr:nth-child(even){background-color: #f2f2f2;}
+
+#tablaPostulacion tr:hover {background-color: #ddd;}
+
+#tablaPostulacion th {
+    width: 300px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #096784 !important;
+	color: #FFF;
+	vertical-align:middle;
+}
+.dataTables_scrollHead {
+	background-color: #096784;
+}
+.dataTable.dataTable_width_auto {
+	width: auto;
+  }
+
+/*Crear convocatoria Formulario*/
+#formularioPostulacion .grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 18px;
+}
+#formularioPostulacion .grid-item,#modificar-convocatoria .spanInput {
+	width: 90%;
+	text-align: center;
+	margin-top: 10px;
+}
+#formularioPostulacion .grid-item p,#formularioPostulacion .grid-item label {
+	text-align: left;
+	
+}
+#formularioPostulacion .grid-item .checkbox-inline,#modificar-convocatoria .spanInput .checkbox-inline{
+	display: block;
+}
+#formularioPostulacion .grid-item input[type=checkbox],#modificar-convocatoria .spanInput input[type=checkbox]{
+	width: 13px;
+  	height: 13px;
+	padding: 0;
+	margin-right:15px;
+	vertical-align: middle;
+	position: relative;
+	top: -1px;
+	*overflow: hidden;
+}
+
+#formularioPostulacion #GuardarBoton{
+	width: 120px;
+}
+#formularioPostulacion #GuardarBoton,#formularioPostulacion #GuardarProgresoBoton {
+	/*background-color: #4CAF50;
+	color: #ffffff;*/
+	border: none;
+	padding: 10px 20px;
+	/*font-size: 17px;
+	font-family: Raleway;*/
+	cursor: pointer;
+}
+#formularioPostulacion #GuardarProgresoBoton2 {
+	/*background-color: #4CAF50;
+	color: #ffffff;*/
+	border: none;
+	padding: 10px 20px;
+	/*font-size: 17px;
+	font-family: Raleway;*/
+	cursor: pointer;
+	display: inline-block;
+}
+#formularioPostulacion #GuardarProgresoBoton {
+	width: 130px;
+	padding: 10px 0px;
+}
+#formularioPostulacion .BtnActivoVerde{
+	font-size: 20px;
+}
+#modificar-convocatoria .grid-container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	font-size: 18px;
+  }
+#modificar-convocatoria .spanInput {
+	width: 90%;
+	text-align: left;
+	margin-top: 30px;
+	font-size: 15px;
+}
+
+#modificar-convocatoria .spanInput select{
+	display: block;
+	padding:5px 8px;
+	text-align: left;
+	margin-right:20px;
+	border: 1px solid rgba(204, 204, 204, 0.9);
+}
+
+#modificar-convocatoria .spanInput textarea{
+	display: block;
+	/*padding:8px 100px 8px 10px;*/
+	width: 100%;
+}
+
+.ComentarioAprobacion{
+	width: 100%;
+	display: block;	
+}
+
+.campo_requerido {
+	color: red;
+	font-style: italic;
+}
+
+.badge-pill-info {
+	color: #fff;
+	background-color: #17a2b8;
+	padding-right: .4em;
+    padding-left: .4em;
+    border-radius: 10rem;
+	display: inline-block;
+    padding: .20em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+.badge-pill-warning {
+	color: #fff;
+	background-color: #FFA900;
+	padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 10rem;
+	display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+/*
+* Nuevas cosas
+*/
+.widthAcciones {
+	width: 32%!important;
+}
+
+.select2-container {
+	z-index: 9999 !important;
+}
+
+.fontSize9 	{ font-size: 9px!important; }
+.fontSize10 { font-size: 10px!important; }
+.fontSize11 { font-size: 11px!important; }
+.fontSize12 { font-size: 12px!important; }
+.fontSize13 { font-size: 13px!important; }

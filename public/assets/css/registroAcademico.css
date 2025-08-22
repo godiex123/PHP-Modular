@@ -1,0 +1,735 @@
+@font-face {
+    font-family: Lato-Regular;
+    src: url('../fonts/Lato/Lato-Regular.ttf'); 
+}
+@font-face {
+    font-family: Lato-Bold;
+    src: url('../fonts/Lato/Lato-Bold.ttf'); 
+}
+
+/* 
+|   Css de Matriculados
+*/
+.contenedor-tabla
+{
+    background: #fff;
+    border-radius: 10px;
+    padding: 1%;
+}
+table 
+{
+    width: 100%;
+}
+.tabla-cabecera th
+{
+    font-size: 85%;
+    color: #FFF;
+    font-family: Lato-Bold;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.tabla-cuerpo td 
+{
+    font-family: Lato-Regular;
+    font-size: 80%;
+    color: #616161;
+    vertical-align: middle;
+}
+.tabla-cuerpo tr:hover td 
+{
+    cursor: pointer;
+    background: #ffe0b2;
+}
+.cell-align
+{
+    text-align: center;
+}
+.acciones
+{
+    width: 21%;
+}
+.curso
+{
+    width: 15%;
+}
+.programa
+{
+    width: 20%;
+}
+.dataTables_filter
+{
+    width: 100%;
+}
+.dataTables_filter label
+{
+    font-family: Lato-Regular;
+}
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0!important;
+}
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before 
+{
+bottom: .5em;
+}
+table.dataTable thead th,
+table.dataTable.no-footer,
+.dataTables_wrapper.no-footer,
+.dataTables_scrollBody
+{
+    border-bottom: none!important;
+}
+.botones
+{
+    width: 100%;
+    text-align: center;
+    padding-top: 3%;
+}
+.TituloVentana
+{
+    font-size: 20px;
+    color: #096784;
+    font-family: Lato-Bold;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.formContainer
+{
+    width: 100%;
+}
+.cabecera_con_boton
+{
+    display: flex;
+    justify-content: space-between;
+}
+.cabecera_con_boton a
+{
+    margin-top: 0.5%;
+    margin-right: 1%;
+    height: 50%;
+}
+.no-existe
+{
+    font-family: Lato-Bold;
+    background: #fff;
+    width: 50%;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* 
+|   Css Para la vista inscripcion regular 
+*/
+
+.inscripcionContainer
+{
+    width: 98%;
+    border-radius: 10px;
+    padding: 1%;
+    background:#fff;
+}
+.reinscripcion
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 4%;
+}
+.tituloReinscripcion
+{
+    text-align: center;
+    font-family: Lato-Bold;
+    font-size: 14px;
+    color: #096784;
+    text-transform: uppercase;
+}
+.botonera {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 63%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.botonera button, .botonera a {
+    width: 80%;
+}
+.tabla-cabecera-inscripcion th
+{
+    font-size: 12px;
+    color: #FFF;
+    background-color: #096784;
+    font-family: Lato-Bold;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.tabla-cuerpo-inscripcion tr
+{
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+.tabla-cuerpo-inscripcion td 
+{
+    font-family: Lato-Regular;
+    font-size: 12px;
+    color: #616161;
+    vertical-align: middle;
+}
+.tabla-cuerpo-inscripcion tr:hover td 
+{
+    cursor: pointer;
+    background: #ffe0b2;
+}
+
+/*
+| Css Inscripciones Masivas
+*/
+.boton {
+    width: 100%;
+    text-align: center;
+    padding: 2%;
+}
+
+.btnInscribir {
+    width: 100%;
+}
+
+.buttonload {
+    background-color: white;
+    border: none;
+    color: #0099FF !important;
+    font-size: 35px;
+}
+.fa {
+    margin-left: -12px;
+    margin-right: 8px;
+}
+.paneles
+{
+    width: 16%;
+    display: inline-block;
+    padding: 0.5%;
+}
+.tabla_masiva
+{
+    display: inline-block;
+    width: 82%;
+    vertical-align: top;
+    float: right;
+    background: #fff;
+    border-radius: 10px;
+    padding: 0.5%;
+}
+.panel {
+    display: block;
+    color: #3d405c;
+    line-height: 0.7;
+    border-top: 3px solid #096784;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    font-family: Lato-Bold;
+    font-weight: 600;
+    -webkit-box-shadow: 0px 0px 32px -3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 32px -3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 32px -3px rgba(0, 0, 0, 0.5);
+    padding: 2%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.panel-title
+{
+    font-size: 14px!important;
+    color: #FF8800;
+}
+.sub {
+    color: #ff407b;
+    font-size: 13px;
+}
+.count
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF8800;
+}
+#disponibles {
+    height: 300px;
+    overflow-y: auto;
+}
+#disponibles ul li {
+    font-size: 12px !important;
+}
+#alumnosDisponibles .TituloVentana {
+    font-size: 15px !important;
+}
+.list-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pointer {
+    cursor: pointer;
+}
+.linkers {
+    text-decoration: none !important;
+    color: #ff407b;
+}
+#data_panel {
+    height: 300px;
+    overflow-y: auto;
+}
+.avanceCursos {
+    margin-top: 2rem !important;
+}
+
+
+/*
+|   Css solicitudes
+*/
+.tabla_solicitudes
+{
+    background: #fff;
+    border-radius: 10px;
+    padding: 1%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+|   Css certificados
+*/
+.certificados
+{
+    background: #fff;
+    border-radius: 10px;
+}
+.sub-header
+{
+    color: orangered;
+    font-size: 75%;
+    font-family: Lato-Bold;
+    font-weight: 600;
+    text-transform: uppercase;
+    height: 1%;
+}
+.alumno-data
+{
+    font-family: Lato-Regular;
+    color: #616161;
+    font-size: 80%;
+}
+.alumno-data td
+{
+    vertical-align: middle!important;
+}
+
+/*
+|   Css Monitor de Cursos
+*/
+.muestra
+{
+    display: inline-block;
+    width: 82%;
+    vertical-align: top;
+    float: right;
+    background: #fff;
+    border-radius: 10px;
+    padding: 0.5%;
+}
+.panel2
+{
+    height: 95px;
+}
+#tabla
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.celda-monitor
+{
+    width: 22%;
+}
+
+.pantalla-monitor .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pantalla-monitor .mensajes {
+    background-color: #FFF;
+    border-top: 2px solid #3F729B;
+    cursor: pointer;
+}
+
+.general {
+    background-color: #FFF;
+    padding: 2rem;
+}
+.panel-head {
+    margin-bottom: 2rem;
+}
+.tablas_panel {
+    margin-top: 2rem;
+    width: 96.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tabla_panel_bottom {
+    margin-top: 1rem;
+    padding: 2rem;
+}
+.dflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rednumber {
+    color: #ff4444;
+    font-size: 30px !important;
+}
+.bluenumber {
+    color: #4285F4;
+    font-size: 30px !important;
+}
+.titulo-tablas-monitor {
+    text-align: center;
+    font-size: 20px;
+    color: #4B515D;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.graynumber {
+    color: #4B515D;
+    font-size: 30px !important;
+}
+.tabla_panel_bottom #tabla {
+    background-color: #FFF;
+}
+#modal_cursos .modal-body {
+    max-height: 300px !important;
+    overflow-x: scroll;
+}
+#modal_cursos .modal-title {
+    font-weight: bolder;
+    color: chocolate;
+}
+.reportes {
+    background-color: #FFF;
+}
+.reportes h5 {
+    font-size: 20px !important;
+    color: #4B515D;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/*
+|   Css Ingreso de notas
+*/
+.otros_btn
+{
+    width: 20%;
+    margin-top: 0.3%;
+}
+.otros_btn a
+{
+    height: 80%;
+}
+.otros_btn form
+{
+    display: inline;
+}
+.formNotas
+{
+    width: 98%;
+    background: #fff;
+    border-radius: 10px;
+    padding-top: 1%;
+}
+.botones_notas
+{
+    padding: 1%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.botones_notas button, .botones_notas a
+{
+    width: 12%;
+}
+.divMod
+{
+    margin: 1.0em auto 1em auto!important;
+}
+.celda-alumno
+{
+    width: 30%;
+}
+.avisos
+{
+    background: #fff;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.tablaNotaMod
+{
+    background: #e3f2fd;
+    font-size:80%;
+}
+.tablaNotaMod2
+{
+    font-size:85%;
+}
+
+/*
+|   Css Ajuste Notas
+*/
+.formAjuste
+{
+    background: #fff;
+    width: 98%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    padding: 2%;
+}
+/*
+|  css Homologar Notas
+*/
+.base {
+    background-color: #FFF;
+    padding: 2rem;
+}
+.btn-new {
+    float: right;
+}
+.formasignatura{
+    width: 70%;
+    margin: 0 auto;
+    padding: 3rem;
+}
+#myModalGeneral .modal-title {
+    width: 80% !important;
+    float: left;
+    color: #3F729B;
+    font-weight: bold;
+}
+.tablalumnos {
+    width: 90% !important;
+    margin: 0 auto !important;
+    padding: 2rem !important;
+}
+.tablanotas {
+    width: 90% !important;
+    margin: 0 auto !important;
+    padding: 2rem !important;
+    font-size: 14px !important;
+}
+
+/* Badges Pill */
+.danger {
+    background-color: #F93154;
+    color: #FFF;
+    font-weight: bold;
+}
+.success {
+    background-color: #00B74A;
+    color: #FFF;
+    font-weight: bold; 
+}
+
+
+/**
+* Nuevo CSS 13/07/2021
+**/
+
+.divContenedora, .inscripcionContainer, .contenedor-principal {
+    font-family: 'Poppins', sans-serif!important;
+}
+.pageTitle {
+    font-weight: 700;
+    color: #FB8C00;
+    padding-left: 2rem;
+}
+.special_subtitle {
+    line-height: 240%;
+    color: #FFF;
+    font-weight: 400;
+}
+.subtitulo1 {
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+    color: #616161;
+}
+.subtitle2 {
+    font-weight: bold;
+    text-align: center;
+    padding: 2rem;
+    color: #616161;
+}
+.subtitle3 {
+    font-weight: bold;
+    text-align: center;
+    color: #616161;
+}
+
+/* CSS TABLAS */
+.tableFormat1, .tableFormat2 {}
+
+.tableFormat1 thead tr th { /* tableFormat1 (Tablas normales) */
+    background-color: #0277BD;
+    color: #FFF;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.tableFormat1 tbody tr td {
+    vertical-align: middle;
+    font-size: 12px;
+    color: #424242;
+    text-align: center;
+}
+.tableFormat2 thead tr th { /* tableFormat2 (Tablas pequeñas) */
+    background-color: #0277BD;
+    color: #FFF;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.tableFormat2 tbody tr td {
+    vertical-align: middle;
+    font-size: 12px;
+    color: #424242;
+}
+.dataTables_scrollHead {
+    background-color: #0277BD!important;
+}
+
+
+
+.rectangle {
+    margin-left: 10%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.rectangle2 {
+    padding: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+
+
+  .contCentral {
+    width: 98%;
+}
+.tablaInfo {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1%;
+    position: relative;
+    max-height: 49vh;
+    overflow: auto;
+}
+.btn-tabla {
+    margin: 0.4%;
+    font-size: 11px;
+    font-weight: bold;
+}
+.inscripcionInfo {
+   border-top: 1px solid #EEE;
+}
+.aprobada {
+   background-color: #5cb85c;
+}
+.inscrita {
+    color: #FFF;
+}
+
+
+.prerrequisito {
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#rutAlumno {
+    display: inline;
+    width: 50%;
+}
